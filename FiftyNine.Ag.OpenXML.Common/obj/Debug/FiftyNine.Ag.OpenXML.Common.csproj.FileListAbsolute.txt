@@ -1,6 +1,0 @@
-D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Common\obj\Debug\ResolveAssemblyReference.cache
-D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Common\Bin\Debug\FiftyNine.Ag.OpenXML.Common.dll
-D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Common\Bin\Debug\FiftyNine.Ag.OpenXML.Common.pdb
-D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Common\Bin\Debug\SharpZipLib.dll
-D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Common\obj\Debug\FiftyNine.Ag.OpenXML.Common.dll
-D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Common\obj\Debug\FiftyNine.Ag.OpenXML.Common.pdb
