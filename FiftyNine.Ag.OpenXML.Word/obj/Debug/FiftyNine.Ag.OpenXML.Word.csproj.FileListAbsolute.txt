@@ -1,0 +1,8 @@
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\Bin\Debug\FiftyNine.Ag.OpenXML.Word.dll
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\Bin\Debug\FiftyNine.Ag.OpenXML.Word.pdb
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\obj\Debug\FiftyNine.Ag.OpenXML.Word.dll
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\obj\Debug\FiftyNine.Ag.OpenXML.Word.pdb
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\Bin\Debug\FiftyNine.Ag.OpenXML.Common.dll
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\Bin\Debug\SharpZipLib.dll
+D:\Projects\Silverlight\FiftyNine.Ag.OpenXML\FiftyNine.Ag.OpenXML.Word\Bin\Debug\FiftyNine.Ag.OpenXML.Common.pdb
