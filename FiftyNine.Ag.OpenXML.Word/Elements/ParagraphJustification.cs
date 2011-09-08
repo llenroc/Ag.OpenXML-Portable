@@ -30,14 +30,14 @@ namespace FiftyNine.Ag.OpenXML.Word.Elements
         {
             switch (j)
             {
-                case Justification.Left:
-                    return "left";
                 case Justification.Center:
                     return "center";
                 case Justification.Right:
                     return "right";
                 case Justification.Justified:
                     return "both";
+                default:
+                    return "left";
             }
         }
         private bool HasValue()
