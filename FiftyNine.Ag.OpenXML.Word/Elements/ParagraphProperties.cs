@@ -12,6 +12,7 @@ namespace FiftyNine.Ag.OpenXML.Word.Elements
         ParagraphSpacing _spacing;
         RunProperties _runProperties;
         Style _style;
+        ParagraphJustification _alignment;
 
         public override void Save(XmlWriter writer)
         {
@@ -29,6 +30,10 @@ namespace FiftyNine.Ag.OpenXML.Word.Elements
             if (Spacing != null)
             {
                 Spacing.Save(writer);
+            }
+            if (Alignment != null)
+            {
+                Alignment.Save(writer);
             }
         }
 
@@ -77,6 +82,17 @@ namespace FiftyNine.Ag.OpenXML.Word.Elements
                     _runProperties = Part.CreateElement<RunProperties>();
                 }
                 return _runProperties;
+            }
+        }
+        public ParagraphJustification Alignment
+        {
+            get
+            {
+                if (_alignment == null)
+                {
+                    _alignment = Part.CreateElement<ParagraphJustification>();
+                }
+                return _alignment;
             }
         }
     }
