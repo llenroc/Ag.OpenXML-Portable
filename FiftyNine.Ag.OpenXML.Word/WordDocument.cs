@@ -26,6 +26,11 @@ namespace FiftyNine.Ag.OpenXML.Word
             AddRelationship(Document);
         }
 
+        public string GetMediaPartName(string filename)
+        {
+            return "/word/media/" + filename.ToLower();
+        }
+
         public DocumentPart Document
         {
             get;

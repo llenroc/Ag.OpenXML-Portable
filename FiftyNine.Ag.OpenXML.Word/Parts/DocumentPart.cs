@@ -34,9 +34,9 @@ namespace FiftyNine.Ag.OpenXML.Word.Parts
             writer.WriteEndElement();
         }
 
-        internal void AddRelation(PackagePart part)
+        public Relationship AddRelation(PackagePart part)
         {
-            AddRelationship(part);
+            return AddRelationship(part);
         }
         internal void AddRelation(string target, string type, bool isExternal)
         {

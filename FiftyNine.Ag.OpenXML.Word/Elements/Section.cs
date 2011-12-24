@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Net;
 using System.Windows;
 using FiftyNine.Ag.OpenXML.Common.BaseClasses;
@@ -36,15 +37,15 @@ namespace FiftyNine.Ag.OpenXML.Word.Elements
             writer.WritePrefixedStartElement(Namespace,NodeName);
 
             writer.WritePrefixedStartElement(Namespace, "pgSz");
-            writer.WritePrefixedAttributeString(Namespace, "w", Size.Width.ToString());
-            writer.WritePrefixedAttributeString(Namespace, "h", Size.Height.ToString());
+            writer.WritePrefixedAttributeString(Namespace, "w", Size.Width.ToString(CultureInfo.InvariantCulture));
+            writer.WritePrefixedAttributeString(Namespace, "h", Size.Height.ToString(CultureInfo.InvariantCulture));
             writer.WriteEndElement();
 
             writer.WritePrefixedStartElement(Namespace, "pgMar");
-            writer.WritePrefixedAttributeString(Namespace, "top", Margins.Top.ToString());
-            writer.WritePrefixedAttributeString(Namespace, "right", Margins.Right.ToString());
-            writer.WritePrefixedAttributeString(Namespace, "bottom", Margins.Bottom.ToString());
-            writer.WritePrefixedAttributeString(Namespace, "left", Margins.Left.ToString());
+            writer.WritePrefixedAttributeString(Namespace, "top", Margins.Top.ToString(CultureInfo.InvariantCulture));
+            writer.WritePrefixedAttributeString(Namespace, "right", Margins.Right.ToString(CultureInfo.InvariantCulture));
+            writer.WritePrefixedAttributeString(Namespace, "bottom", Margins.Bottom.ToString(CultureInfo.InvariantCulture));
+            writer.WritePrefixedAttributeString(Namespace, "left", Margins.Left.ToString(CultureInfo.InvariantCulture));
             writer.WritePrefixedAttributeString(Namespace, "header", HeaderSpace.ToString());
             writer.WritePrefixedAttributeString(Namespace, "footer", FooterSpace.ToString());
             writer.WritePrefixedAttributeString(Namespace, "gutter", GutterSpace.ToString());

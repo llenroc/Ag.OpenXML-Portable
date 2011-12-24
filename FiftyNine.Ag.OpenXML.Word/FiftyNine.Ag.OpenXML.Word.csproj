@@ -14,7 +14,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>FiftyNine.Ag.OpenXML.Word</RootNamespace>
     <AssemblyName>FiftyNine.Ag.OpenXML.Word</AssemblyName>
-    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
     <SilverlightApplication>false</SilverlightApplication>
     <ValidateXaml>true</ValidateXaml>
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
@@ -43,6 +43,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -77,6 +78,9 @@
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\Shared\SharedAssemblyInfo.cs">
+      <Link>Properties\SharedAssemblyInfo.cs</Link>
+    </Compile>
     <Compile Include="BaseClasses\WordContainerElement.cs" />
     <Compile Include="BaseClasses\WordElement.cs" />
     <Compile Include="Constants\ContentTypes.cs" />
@@ -84,6 +88,7 @@
     <Compile Include="Constants\RelationshipTypes.cs" />
     <Compile Include="Elements\Break.cs" />
     <Compile Include="Elements\CharacterStyle.cs" />
+    <Compile Include="Elements\Picture.cs" />
     <Compile Include="Elements\Tab.cs" />
     <Compile Include="Elements\ParagraphJustification.cs" />
     <Compile Include="Elements\FontDefinition.cs" />
@@ -102,6 +107,7 @@
     <Compile Include="Parts\DefaultDocumentPart.cs" />
     <Compile Include="Parts\DocumentPart.cs" />
     <Compile Include="Parts\FontTablePart.cs" />
+    <Compile Include="Parts\ImagePart.cs" />
     <Compile Include="Parts\StylesPart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utilities\FontReference.cs" />
@@ -131,6 +137,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

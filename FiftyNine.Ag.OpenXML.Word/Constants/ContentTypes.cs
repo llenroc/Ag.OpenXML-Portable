@@ -10,5 +10,6 @@ namespace FiftyNine.Ag.OpenXML.Word.Constants
         public const string Document = "application/vnd.openxmlformats-officedocument.wordprocessingml.document+xml";
         public const string Styles = "application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml";
         public const string FontTable = "application/vnd.openxmlformats-officedocument.wordprocessingml.fontTable+xml";
+        public const string Jpg = "image/jpeg";
     }
 }

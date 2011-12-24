@@ -6,6 +6,7 @@ using FiftyNine.Ag.OpenXML.Common;
 using FiftyNine.Ag.OpenXML.Common.Extensions;
 using FiftyNine.Ag.OpenXML.Word.BaseClasses;
 using System.Xml;
+using System.Globalization;
 
 namespace FiftyNine.Ag.OpenXML.Word.Elements
 {

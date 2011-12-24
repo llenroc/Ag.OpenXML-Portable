@@ -13,13 +13,13 @@ namespace FiftyNine.Ag.OpenXML.Common.Packaging
 
         protected Relationship AddRelationship(PackagePart part)
         {
-            Relationship rel = new Relationship(part, _relationships.Count + 1);
+            var rel = new Relationship(part, _relationships.Count + 1);
             _relationships.Add(rel);
             return rel;
         }
         protected Relationship AddRelationship(string target, string type, bool isExternal)
         {
-            Relationship rel = new Relationship(target, type, isExternal, _relationships.Count + 1);
+            var rel = new Relationship(target, type, isExternal, _relationships.Count + 1);
             _relationships.Add(rel);
             return rel;
         }
