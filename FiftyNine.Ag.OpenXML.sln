@@ -1,16 +1,10 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{DEE8A3F3-E890-45C4-ADF8-E1FC10AEAECA}"
 	ProjectSection(SolutionItems) = preProject
 		Lib\SharpZipLib.dll = Lib\SharpZipLib.dll
 	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiftyNine.Ag.OpenXML.Word", "FiftyNine.Ag.OpenXML.Word\FiftyNine.Ag.OpenXML.Word.csproj", "{6316671D-72CF-4CB3-B02A-A7FE93970E17}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiftyNine.Ag.OpenXML.Common", "FiftyNine.Ag.OpenXML.Common\FiftyNine.Ag.OpenXML.Common.csproj", "{5459410B-BA1D-4605-B83E-4408579EA24E}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiftyNine.Ag.OpenXML.Excel", "FiftyNine.Ag.OpenXML.Excel\FiftyNine.Ag.OpenXML.Excel.csproj", "{E0B3EB5E-F549-496B-9BE7-A1C7C6ECECC7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{F14DCA10-F9AC-42AE-B263-36FEF6C78CF6}"
 EndProject
@@ -23,47 +17,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{B22762
 		Shared\SharedAssemblyInfo.cs = Shared\SharedAssemblyInfo.cs
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiftyNine.Ag.OpenXML.Common", "FiftyNine.Ag.OpenXML.Common\FiftyNine.Ag.OpenXML.Common.csproj", "{08B4EF85-8C44-4683-9639-D3AF98314288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiftyNine.Ag.OpenXML.Word", "FiftyNine.Ag.OpenXML.Word\FiftyNine.Ag.OpenXML.Word.csproj", "{B79DDFA1-3F0F-4AF6-8E28-E12BB664DA4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FiftyNine.Ag.OpenXML.Excel", "FiftyNine.Ag.OpenXML.Excel\FiftyNine.Ag.OpenXML.Excel.csproj", "{4D0CFE47-84D0-4274-BB6E-39A89A556A48}"
+EndProject
 Global
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs08
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = FiftyNine.Ag.OpenXML.Word\\FiftyNine.Ag.OpenXML.Word.csproj
-		SccProjectName1 = FiftyNine.Ag.OpenXML.Word
-		SccLocalPath1 = FiftyNine.Ag.OpenXML.Word
-		SccProjectUniqueName2 = FiftyNine.Ag.OpenXML.Common\\FiftyNine.Ag.OpenXML.Common.csproj
-		SccProjectName2 = FiftyNine.Ag.OpenXML.Common
-		SccLocalPath2 = FiftyNine.Ag.OpenXML.Common
-		SccProjectUniqueName3 = FiftyNine.Ag.OpenXML.Excel\\FiftyNine.Ag.OpenXML.Excel.csproj
-		SccProjectName3 = FiftyNine.Ag.OpenXML.Excel
-		SccLocalPath3 = FiftyNine.Ag.OpenXML.Excel
-		SccProjectUniqueName4 = FiftyNine.Ag.OpenXML.Excel.Sample\\FiftyNine.Ag.OpenXML.Excel.Sample.csproj
-		SccProjectTopLevelParentUniqueName4 = FiftyNine.Ag.OpenXML.sln
-		SccProjectName4 = FiftyNine.Ag.OpenXML.Excel.Sample
-		SccLocalPath4 = FiftyNine.Ag.OpenXML.Excel.Sample
-		SccProjectUniqueName5 = FiftyNine.Ag.OpenXML.Word.Sample\\FiftyNine.Ag.OpenXML.Word.Sample.csproj
-		SccProjectTopLevelParentUniqueName5 = FiftyNine.Ag.OpenXML.sln
-		SccProjectName5 = FiftyNine.Ag.OpenXML.Word.Sample
-		SccLocalPath5 = FiftyNine.Ag.OpenXML.Word.Sample
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6316671D-72CF-4CB3-B02A-A7FE93970E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6316671D-72CF-4CB3-B02A-A7FE93970E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6316671D-72CF-4CB3-B02A-A7FE93970E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6316671D-72CF-4CB3-B02A-A7FE93970E17}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5459410B-BA1D-4605-B83E-4408579EA24E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5459410B-BA1D-4605-B83E-4408579EA24E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5459410B-BA1D-4605-B83E-4408579EA24E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5459410B-BA1D-4605-B83E-4408579EA24E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E0B3EB5E-F549-496B-9BE7-A1C7C6ECECC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E0B3EB5E-F549-496B-9BE7-A1C7C6ECECC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E0B3EB5E-F549-496B-9BE7-A1C7C6ECECC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E0B3EB5E-F549-496B-9BE7-A1C7C6ECECC7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{17FB4373-4897-4D72-8F72-865CED278E8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{17FB4373-4897-4D72-8F72-865CED278E8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17FB4373-4897-4D72-8F72-865CED278E8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -72,6 +37,18 @@ Global
 		{E2A7D69C-B3E0-4A5A-B71E-B660A217A62B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2A7D69C-B3E0-4A5A-B71E-B660A217A62B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2A7D69C-B3E0-4A5A-B71E-B660A217A62B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B4EF85-8C44-4683-9639-D3AF98314288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B4EF85-8C44-4683-9639-D3AF98314288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B4EF85-8C44-4683-9639-D3AF98314288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B4EF85-8C44-4683-9639-D3AF98314288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79DDFA1-3F0F-4AF6-8E28-E12BB664DA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79DDFA1-3F0F-4AF6-8E28-E12BB664DA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79DDFA1-3F0F-4AF6-8E28-E12BB664DA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79DDFA1-3F0F-4AF6-8E28-E12BB664DA4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D0CFE47-84D0-4274-BB6E-39A89A556A48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0CFE47-84D0-4274-BB6E-39A89A556A48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0CFE47-84D0-4274-BB6E-39A89A556A48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0CFE47-84D0-4274-BB6E-39A89A556A48}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

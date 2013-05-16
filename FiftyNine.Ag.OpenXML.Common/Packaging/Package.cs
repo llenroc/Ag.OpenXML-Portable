@@ -1,19 +1,12 @@
 ﻿using System;
 using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Collections.Generic;
 using System.Linq;
 using System.IO;
 using System.Xml;
 using FiftyNine.Ag.OpenXML.Common.Storage;
 using FiftyNine.Ag.OpenXML.Common.Constants;
 using FiftyNine.Ag.OpenXML.Common.Extensions;
+using System.Collections.Generic;
 
 namespace FiftyNine.Ag.OpenXML.Common.Packaging
 {
@@ -42,7 +35,8 @@ namespace FiftyNine.Ag.OpenXML.Common.Packaging
             }
             ret.Initialize();
 
-            string extension = Path.GetExtension(ret.Path).Substring(1);
+            //string extension = Path.GetExtension(ret.Path).Substring(1);
+            string extension = ret.Path.Substring(ret.Path.LastIndexOf('.') + 1);
             if (_defaultExtensions.Keys.FirstOrDefault(ext => ext.Equals(extension, StringComparison.OrdinalIgnoreCase)) == null)
             {
                 _defaultExtensions.Add(extension, ret.ContentType);

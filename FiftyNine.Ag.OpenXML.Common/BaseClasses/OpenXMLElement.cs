@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Net;
-using System.Windows;
 using FiftyNine.Ag.OpenXML.Common.Packaging;
 using System.Xml;
 using FiftyNine.Ag.OpenXML.Common.Extensions;

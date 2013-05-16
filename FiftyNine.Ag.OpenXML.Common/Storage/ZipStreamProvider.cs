@@ -1,13 +1,5 @@
 ﻿using System;
 using System.Net;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using ICSharpCode.SharpZipLib.Zip;
 using System.IO;
 
@@ -42,7 +34,7 @@ namespace FiftyNine.Ag.OpenXML.Common.Storage
             VerifyDisposed();
             if (_currentStream != null)
             {
-                _currentStream.Close();
+                _currentStream.Dispose();
                 _currentStream = null;
             }
 
@@ -102,10 +94,9 @@ namespace FiftyNine.Ag.OpenXML.Common.Storage
                 Name = name;
             }
 
-            public override void Close()
-            {
+            protected override void Dispose(bool disposing) {
                 OnClosing();
-                base.Close();
+                base.Dispose(disposing);
             }
 
             public string Name

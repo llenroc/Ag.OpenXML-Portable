@@ -51,7 +51,7 @@ namespace FiftyNine.Ag.OpenXML.Word.Parts
         {
             if (disposing)
             {
-                _img.Close();
+                _img.Dispose();
             }
             _img = null;
         }

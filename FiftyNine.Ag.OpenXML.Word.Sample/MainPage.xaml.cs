@@ -9,6 +9,7 @@ using FiftyNine.Ag.OpenXML.Common.Storage;
 using FiftyNine.Ag.OpenXML.Word.Elements;
 using FiftyNine.Ag.OpenXML.Word.Parts;
 using FiftyNine.Ag.OpenXML.Word.Utilities;
+using Helpers = FiftyNine.Ag.OpenXML.Common.Helpers;
 using Style = FiftyNine.Ag.OpenXML.Word.Elements.Style;
 
 namespace FiftyNine.Ag.OpenXML.Word.Sample
@@ -97,7 +98,7 @@ namespace FiftyNine.Ag.OpenXML.Word.Sample
                     run = doc.Document.CreateElement<Run>();
                     var pict = doc.Document.CreateElement<Picture>();
                     pict.Image = rel;
-                    pict.Size = new Size(400, 240);
+                    pict.Size = new Helpers.Size(400, 240);
                     run.Content.Add(pict);
                     p.Runs.Add(run);
                     doc.Document.Sections[0].Paragraphs.Insert(0, p);

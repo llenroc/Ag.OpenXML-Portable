@@ -1,13 +1,7 @@
 ﻿using System;
 using System.Net;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Documents;
-using System.Windows.Ink;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
-using System.Windows.Shapes;
 using FiftyNine.Ag.OpenXML.Common;
 using FiftyNine.Ag.OpenXML.Common.Packaging;
 using FiftyNine.Ag.OpenXML.Excel.Elements;
@@ -15,6 +9,7 @@ using FiftyNine.Ag.OpenXML.Excel.Utilities;
 using System.Collections.Generic;
 using System.Linq;
 using System.Globalization;
+using FiftyNine.Ag.OpenXML.Common.Helpers;
 
 namespace FiftyNine.Ag.OpenXML.Excel.Parts
 {

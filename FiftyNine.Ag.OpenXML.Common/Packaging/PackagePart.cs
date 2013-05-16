@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Net;
-using System.Windows;
 using FiftyNine.Ag.OpenXML.Common.BaseClasses;
 using FiftyNine.Ag.OpenXML.Common.Storage;
 using System.IO;
@@ -43,7 +42,8 @@ namespace FiftyNine.Ag.OpenXML.Common.Packaging
         {
             SavePart(streamProvider);
 
-            string fileName = System.IO.Path.GetFileName(Path);
+            //string fileName = System.IO.Path.GetFileName(Path);
+            string fileName = Path.Substring(Path.LastIndexOf("/") + 1);
             string relName = Path.Replace(fileName, "_rels/" + fileName + ".rels");
             SaveRelationships(streamProvider, relName, this);
         }

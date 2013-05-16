@@ -8,6 +8,7 @@ using FiftyNine.Ag.OpenXML.Common.Extensions;
 using System.Xml;
 using System.Collections.Generic;
 using FiftyNine.Ag.OpenXML.Word.BaseClasses;
+using FiftyNine.Ag.OpenXML.Common.Helpers;
 
 namespace FiftyNine.Ag.OpenXML.Word.Elements
 {
