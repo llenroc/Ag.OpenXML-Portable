@@ -11,5 +11,6 @@ namespace FiftyNine.Ag.OpenXML.Excel.Utilities
         public const string Worksheet = "application/vnd.openxmlformats-officedocument.spreadsheetml.worksheet+xml";
         public const string SharedStrings = "application/vnd.openxmlformats-officedocument.spreadsheetml.sharedStrings+xml";
         public const string Table = "application/vnd.openxmlformats-officedocument.spreadsheetml.table+xml";
+        public const string WorkbookStyles = "application/vnd.openxmlformats-officedocument.spreadsheetml.styles+xml";
     }
 }

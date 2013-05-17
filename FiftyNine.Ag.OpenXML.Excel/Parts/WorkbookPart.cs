@@ -25,6 +25,9 @@ namespace FiftyNine.Ag.OpenXML.Excel.Parts
 
             SharedStrings = Package.CreatePart<SharedStringsPart>("/xl/sharedStrings.xml");
             AddRelationship(SharedStrings);
+
+            WorkbookStyles = Package.CreatePart<WorkbookStylesPart>("/xl/styles.xml");
+            AddRelationship(WorkbookStyles);
         }
 
         public WorksheetPart AddSheet(string partName, string sheetName)
@@ -82,6 +85,10 @@ namespace FiftyNine.Ag.OpenXML.Excel.Parts
         }
         public SharedStringsPart SharedStrings
         {
+            get;
+            private set;
+        }
+        public WorkbookStylesPart WorkbookStyles {
             get;
             private set;
         }

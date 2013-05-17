@@ -52,6 +52,7 @@
     <Compile Include="Parts\SharedStringsPart.cs" />
     <Compile Include="Parts\TablePart.cs" />
     <Compile Include="Parts\WorkbookPart.cs" />
+    <Compile Include="Parts\WorkbookStylesPart.cs" />
     <Compile Include="Parts\WorksheetPart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SpreadsheetDocument.cs" />
